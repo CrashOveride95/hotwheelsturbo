@@ -1,6 +1,6 @@
 name: Hot Wheels Turbo (North America)
-basename: hotwheelsturbo
 options:
+  basename: hotwheelsturbo
   find_file_boundaries: True
   compiler: GCC
   platform: n64

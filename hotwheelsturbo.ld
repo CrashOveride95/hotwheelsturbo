@@ -61,19 +61,7 @@ SECTIONS
         ptrtable_bin = .;
         build/assets/ptrtable.bin.o(.data);
     }
-    ptrtable_ROM_END = 0xC33E0;
-    __romPos = 0xC33E0;
-
-    __romPos = 0xC33E0;
-    . = __romPos;
-    C33E0_ROM_START = __romPos;
-    C33E0_VRAM = ADDR(.C33E0);
-    .C33E0  : AT(C33E0_ROM_START) SUBALIGN(16)
-    {
-        C33E0_bin = .;
-        build/assets/C33E0.bin.o(.data);
-    }
-    C33E0_ROM_END = 0xC9060;
+    ptrtable_ROM_END = 0xC9060;
     __romPos = 0xC9060;
 
     __romPos = 0xC9060;
@@ -85,19 +73,7 @@ SECTIONS
         wavetable_bin = .;
         build/assets/wavetable.bin.o(.data);
     }
-    wavetable_ROM_END = 0xC9060;
-    __romPos = 0xC9060;
-
-    __romPos = 0xC9060;
-    . = __romPos;
-    C9060_ROM_START = __romPos;
-    C9060_VRAM = ADDR(.C9060);
-    .C9060  : AT(C9060_ROM_START) SUBALIGN(16)
-    {
-        C9060_bin = .;
-        build/assets/C9060.bin.o(.data);
-    }
-    C9060_ROM_END = 0xC00000;
+    wavetable_ROM_END = 0xC00000;
     __romPos = 0xC00000;
 
     /DISCARD/ :
