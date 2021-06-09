@@ -1,0 +1,33 @@
+name: Hot Wheels Turbo (North America)
+basename: hotwheelsturbo
+options:
+  find_file_boundaries: True
+  compiler: GCC
+  platform: n64
+  base_path: .
+  target_path: baserom.us.z64
+segments:
+  - name: header
+    type: header
+    start: 0x0
+  - name: boot
+    type: bin
+    start: 0x40
+  - name: main
+    type: code
+    start: 0x1000
+    vram: 0x80060400
+    subsegments:
+      - [0x1000, asm]
+      - [0x5BC0, asm]
+      - [0x6050, asm]
+  - type: bin
+    start: 0x88890
+  - name: ptrtable
+    type: bin
+    start: 0xC33E0
+  - name: wavetable
+    type: bin
+    start: 0xC9060
+  - [0xC00000]
+

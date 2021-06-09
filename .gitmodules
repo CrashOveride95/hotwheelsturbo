@@ -1,0 +1,9 @@
+[submodule "tools/splat"]
+	path = tools/splat
+	url = https://github.com/ethteck/splat.git
+[submodule "tools/kmc-gcc-wrapper"]
+	path = tools/kmc-gcc-wrapper
+	url = https://github.com/Mr-Wiseguy/kmc-gcc-wrapper.git
+[submodule "tools/n64sym"]
+	path = tools/n64sym
+	url = https://github.com/shygoo/n64sym.git
