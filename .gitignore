@@ -1,4 +1,16 @@
-*.z64
-asm/*
-assets/*
+# files
 *auto.txt
+*.bin
+*.ld
+*.ok
+*.z64
+.splat_cache
+
+# directories
+__pycache__/
+asm/
+assets/
+build/
+expected/
+junk/
+nonmatchings/
