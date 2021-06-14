@@ -1,0 +1,9 @@
+osCreateThread = 0x800DF210;
+osSetThreadPri = 0x800DF300;
+osStartThread  = 0x800DF3D0;
+osInitialize   = 0x800E2E60;
+__osRestoreInt = 0x800E3B30;
+__osDequeueThread = 0x800DF5B0;
+__osEnqueueAndYield = 0x800E37CC;
+__osEnqueueThread = 0x800E38D4;
+__osDisableInt = 0x800E3AC0;

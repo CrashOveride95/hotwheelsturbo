@@ -1,0 +1,15 @@
+Uses F3DEX2, e.g.
+
+{
+    gsSPDisplayList(0x800F2030),
+    gsDPPipeSync(),
+    gsDPSetPrimColor(0, 0, 0xFF, 0xFF, 0xFF, 0xFF),
+    gsDPLoadTextureTile(0x801B4CE8, G_IM_FMT_RGBA, G_IM_SIZ_16b, 9, 0, 0, 0, 8, 17, 0, G_TX_NOMIRROR | G_TX_WRAP, G_TX_NOMIRROR | G_TX_WRAP, G_TX_NOMASK, G_TX_NOMASK, G_TX_NOLOD, G_TX_NOLOD),
+    gsSPTextureRectangle(qu102(528), qu102(181), qu102(537), qu102(199), G_TX_RENDERTILE, 0, 0, qs510(1), qs510(1)),
+    gsSPDisplayList(0x800F2030),
+    gsDPPipeSync(),
+    gsDPSetPrimColor(0, 0, 0xFF, 0xFF, 0xFF, 0xFF),
+    gsDPLoadTextureTile(0x801B9588, G_IM_FMT_RGBA, G_IM_SIZ_16b, 13, 0, 0, 0, 12, 17, 0, G_TX_NOMIRROR | G_TX_WRAP, G_TX_NOMIRROR | G_TX_WRAP, G_TX_NOMASK, G_TX_NOMASK, G_TX_NOLOD, G_TX_NOLOD),
+    gsSPTextureRectangle(qu102(533), qu102(181), qu102(546), qu102(199), G_TX_RENDERTILE, 0, 0, qs510(1), qs510(1)),
+    gsSPDisplayList(0x800F2030),
+}
